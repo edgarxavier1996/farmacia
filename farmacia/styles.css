@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 16px;
+}
+.contenedor{
+    width: 90%;
+    max-width: 1500px;
+    margin: auto;
+    overflow: hidden;
+    
+}
+
+header{
+    
+    width: 100%; 
+    background-image: url(imagenes/fondo.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center 0;
+}
+header .contenedor{
+    position: relative;
+    height: 700px;  
+}
+header .menu{
+    width: 100%;
+    text-align: right;
+}
+header .menu a{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 300;
+    display: inline-block;
+    margin: 40px 20px;
+    text-decoration: none;
+    position: relative;
+    
+}
+header .menu a:hover{
+    color: rgb(6, 10, 11);
+    text-decoration: none;
+}
+header .titulo{
+    width: 100%;
+    color: rgb(12, 12, 8);
+    position: absolute;
+    top: 50%;
+    margin-top: -52px;
+}
+header .texto .nombre{
+    font-size: 150px;
+    font-weight: 600;
+}
+
+header .texto .nombre span{
+    font-weight: 300;
+}
+header .texto h3{
+    font-family: 'Times New Roman';
+    font-weight: 300;
+    font-size: 25px;
+}
+
+
+
+
+.foto img{
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    margin: -75px auto 10px;
+   display: block;
+}
+
+.titulo2{
+    color: rgb(99, 155, 135);
+    font-size: 250%;
+    text-align: center;
+}
+
+.texto{
+    text-align: center;
+    margin-inline: 25%;
+    
+}
+
+.ptamaño{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 70px;
+}
+
+.medicamento{
+    width: 60%;
+    margin-left: 20%;
+}
+
+
+
+footer .copyright{
+    text-align: center;
+    padding: 15px 0;
+    color: #000000;
+}
+
+
+
+
+
+
+
